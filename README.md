@@ -10,3 +10,8 @@ third: clone the  repository using this command:
          
        git clone [repository url]
 
+Forth: to push file to this repository:
+       
+     4.1 you need to have an access
+     4.2 you need to make a change
+     4.3 you need to commit your change
