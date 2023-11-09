@@ -1,0 +1,20 @@
+                Answer for Quiz 1 DB by Dereje..
+
+1.data is information such as facts and numbers used to analyse something or make decisio.
+2. knowledge obtained from investigation, study, or instruction.
+3. A database is an organized collection of structured information, or data, typically stored electronically in a computer system.
+4. RDBMS:is a program used to create, update, and manage relational databases.
+5, it provides an intuitive way to represent data and allows easy access to related data.
+6. Relational databases store data according to specific schemas. By contrast, NoSQL systems allow data to be stored using any structure required but provides a way for updating that data when changing that structure.
+7. MYAQL,SQL server,DB2,OracleSQL Lite,Microsoft Access,SQLite,PostgreSQL,MariaDB
+8. MongoDB,Apache Cassandra,Redis,Couchbase and ApacheHBase.
+9. SQL:is a programming language for storing and processing information in a relational database.
+     A relational database stores information in tabular form, with rows and columns representing different data attributes and the          various relationships between the data values.
+10. The various subsets of SQL are as follows: 
+     DDL – It allows you to perform various operations on the database such as CREATE, ALTER and DELETE objects. 
+     DML:– It allows you to access and manipulate data.
+     DCL:commands control access and security.
+     TCL: commands manage transactions and data integrity.
+11. A table is an arrangement of information or data, typically in rows and columns, or possibly in a more complex structure
+12. A row, or record, is also known as a tuple. 
+    The columns in a table is a field and is also referred to as an attribute
