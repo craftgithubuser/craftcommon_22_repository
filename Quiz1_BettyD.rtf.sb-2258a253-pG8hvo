@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0                                         QUIZ 1\
+\
+11/9/2023\
+\
+1, Data is a collection of raw facts \
+\
+2, Information is collection of data that is organized and has meaning \
+\
+3, Database (DB) is a container of data or where we store data\
+\
+4, Relation Database Management System(RDMS) is a software application that interacts with user, applications, and the database itself to analyze data.  \
+\
+5, RDMS is important to store a large amount of structured data in a table form. It's easy for backups, security, and easy for handing larger amount of information. Ex, healthcare and banks \
+\
+6, Relational DB (SQL) stores data in a form of table vs non relational (NoSQL)\
+\
+7, MYSQL, Oracle, Microsoft SQL server, and IBM\
+\
+8, Apache Cassandra, Redis, and Couchbase \
+\
+9, Structured Query Language (SQL) is a type of relational database used for accessing and managing the database by adding, updating, deleting rows of data. \
+\
+10, Data Definition Language (DDL)- it allows us to create, alter, rename, and delete a table. Changes as auto saved.\
+    Data Manipulation Language(DML)-  it helps change the data within the table and it does not change the table itself. Changes are not auto saved.\
+    Data Control Language (DCL)- commands that help to give and revoke access \
+    Transaction Control Language (TCL)- commands used to manage transactions in the DB\
+\
+11, Table in database is a collection of data that is stored in a table format within thegigit DB\
+\
+12, Column (Attribute) is a vertical set of data of the same time such as name, address, and phone number vs row (tuple) is a horizontal set of data values one for each column. Ex, Betty, 123 main st, 123-456-7890\
+ }
