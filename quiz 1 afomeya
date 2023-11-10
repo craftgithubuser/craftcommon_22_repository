@@ -1,0 +1,15 @@
+Answer key—
+1. is a collection of raw, unorganized facts that on their own have no meaning.
+2.is data that has been processed, analyzed, and interpreted to provide meaning.
+3. A database is a collection of organized data, typically stored electronically in a computer system.
+4. A relational database management system is a type of database management system (DBMS) that stores data in a row-based table structure.
+5.are important because they provide a reliable, efficient, and scalable way to store and manage large amounts of data.
+6.Relational databases use a table-based data model to store data, with each row representing a single record and each column representing a specific piece of data within that record.
+Non-relational databases use a variety of different data models, such as key-value, document, column-family, and graph.
+7. RDBMS-MySQL,PostgreSQL,Microsoft SQL Server,Oracle Database,IBM Db2
+8. nosql- MongoDB, Cassandra, Redis ,Couchbase ,Neo4j 
+9.SQL-is a programming language designed for managing data in relational database management systems and  is a declarative language, which means that you tell the database what you want to do, but not how to do it.
+10.DDL is used to create, modify, and delete database objects, such as tables, views, and indexes.DML is used to insert, update, and delete data in a database.DCL is used to grant and revoke permissions to database objects.TCL is used to control transactions in a database.
+11. DB-A table in a database is a collection of data organized into rows and columns.
+12.A column in a database table is a vertical collection of data.A row in a database table is a horizontal collection of data.
+
