@@ -15,7 +15,7 @@ A database is information that is set up for easy access, management and updatin
 A relational database management system (RDBMS) is a software that allows you to create, update, 
 and administer a relational database.
 
-5.      Define the importance of Relation Database Management System(RDBMS)?
+5.      Define the importance of Relation Database Management System(RDBMS)?  
 
 Flexibility: Relational databases can be flexible in allowing users to change or store data. 
 Accuracy: Because the relational database interface is user-friendly and easy to navigate,
