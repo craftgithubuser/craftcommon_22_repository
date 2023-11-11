@@ -1,0 +1,50 @@
+
+1. data is distinct pieces of information about an object
+2. information is
+3. database is a systematic collection of relational database
+4. relational database management system is a software application that interacts with the user, applications and the database itself to capture and analyze data.
+5. the importance of RDBMS : to make it easy to manage large amount of information
+                           : handle security
+                           : backups
+                           : interacts with system application
+6. SQL Database:  a database that stores data in tables with defined relationships between them
+    NoSQL Database: a database that stores data in formats other than tables, allowing varied data structures
+7.examples of Relation Database Management System(RDBMS) are:
+
+  MySQL
+  Oracle Database
+  Microsoft SQL Server
+  PostgreSQL
+  IBM Db2
+  SQLite
+ 8. examples of Non-Relational (NoSQL) databases:
+
+    MongoDB
+    Apache Cassandra
+    Redis
+    Amazon DynamoDB
+    Couchbase
+9. SQL is the code of relational database which is used for accessing and managing the database.
+10. the different subsets of SQL : DDL (Data Definition Language): This subset is used for defining and modifying the structure of database objects such as tables, indexes, and databases. Common DDL commands include:
+
+CREATE 
+ALTER 
+DROP 
+TRUNCATE 
+ DML (Data Manipulation Language): DML is used for retrieving, inserting, modifying, and deleting data in the database. Key DML commands are:
+
+SELECT 
+INSERT 
+UPDATE
+DELETE 
+
+DCL(Data Control Language):  it allows us to control access to the database.  DCL includes commands that deal with the rights, permissions, and other controls of the database system. The primary commands are: GRANT: to give users access privileges to         the database.
+REVOKE: to remove existing access privileges.
+TCL (Transaction Control Language): used to manage transaction which is made by DML.
+11. In a database, a table is a structured arrangement of data made up of rows and columns, which can be thought of as analogous to a spreadsheet.
+12. Rows: Also known as records, each row contains a single data item or an instance of an entity (like a customer or a transaction). Each row in a table should be unique in some way, typically identified by a primary key.
+
+Columns: Also known as fields or attributes, each column specifies a particular piece of information that the table is intended to store, like a customer's name or address.
+
+
+
