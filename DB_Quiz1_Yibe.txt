@@ -1,0 +1,104 @@
+      
+	  
+	Quiz 1               Name: Yibeltal Engida
+	
+	Answer for Question #1
+	
+	 Data is a collection of facts that can be recorded. It maybe text, number, videos, images.
+	  In the context of computing and information technology, data is often the input for processes that generate meaningful information.
+	
+	Answer for Question #2
+	
+	Information generally refers to data that has been processed or organized in a meaningful way to convey knowledge or meaning. 
+	It is a broad term that encompasses facts, knowledge, and insights derived from data. 
+	In a more technical sense, information is often considered as the result of processing, manipulating, and organizing data to reduce 
+	uncertainty, increase understanding, or make decisions.
+	
+	Answer for Question #3
+	
+	  Database is a systematic collection of related Data that represents some real world entities.
+	  A database is a structured collection of data that is organized and stored in a way that enables efficient retrieval, management,
+	and updating of that data. It is designed to provide a systematic and organized approach to data storage and retrieval.
+	
+	Answer for Question #4
+	 
+	A Relational Database Management System (RDBMS) is a type of database management system that organizes data into tables, 
+	which consist of rows and columns. It is based on the relational model of data, proposed by Edgar F. Codd in 1970. 
+	The relational model represents data as tables, where each table has rows that correspond to records and columns that represent attributes or fields.
+	
+	Answer for Question #5
+	
+	*To manage and organize data in a structured manner.
+	*To enforce data integrity
+	*For Data retrieval and Querying
+	*It offers robust security features, including user authentication, authorization and encryption.
+	
+	Answer for Question #6
+	
+	Relational databases organize data into tables with rows and columns. In relational DB
+data is stored in a structured format, and each table has a predefined schema. Whereas, Non-Relational (NoSQL) databases can handle structured, 
+semi-structured, or unstructured data. Documents, graphs, wide-column stores, and key-value pairs are common data models.
+
+   Answer for Question #7
+   
+    Here are some Rxamples of Relational Database Management System:
+        My SQL
+		Postgre SQL
+		Microsoft SQL Server
+		Oracle Database
+		SQLite
+		IBM Db2
+		MariaDB
+		Amazaon Aurora
+		
+	Answer for Question #8
+	
+	 The following are examples of Non Relational Database Management System:
+	    MongoDB
+		Cassandra
+		Couchbase
+		Redis
+		Amazon DynamoDB
+		Neo4j
+		Riak
+		
+	Answer for Question #9
+	 
+	 Structured Query Language (SQL) is the core of a relational database which is used for accessing and managing the database.
+	 SQL is a standardized language for interacting with RDBMS and is widely used for tasks such as querying data, updating data, 
+	 inserting data, and creating or modifying database schema.
+	 
+	 Answer for Question #10
+	 
+	   The different subsets of SQL are:
+	      DDL
+		  DML
+		  DCL
+		  TCL
+	 DDL: Data Definition Language allows users to perform various operations on the DB
+	      All DDL commands are auto-committed. That means it saves all the changes permanently in the database.
+	 DML: Data Manipulation Language commands are used for manipulating the data stored in the table and not the table itself.
+	      It allows us to access and manipulate data. It also helps us to insert, update, delete and retrieve data from the DB.
+     DCL: Data Control Languages are the commands to grant and take back authority from any databaseuser.
+	      It allows us to control access to the database. Example-Grant and Revoke access permissions.
+     TCL: Transaction Control Language commands are used to manage transactions in the database. These are used to manage the changes
+	      made to the data in a table by DML statements. It also allows statements to be grouped together into logical transactions.
+		  Example-Commit, Rollback, Savepoint, Set Transaction
+		
+    Answer for Question #11
+	
+	    A table is a collection of related data held in a table format with in a database. It consists of columns and rows.
+		In relational databases, and flat file databases, a table is aset of data elements using a model of vertical columns and horizontal rows.
+		
+    Answer for Question #12
+	   
+	    A column, also referred to as a field, is a vertical unit in a table.
+        It represents a specific attribute or property of the entities (rows) in the table.
+		A row, also known as a record or tuple, is a horizontal unit in a table.
+        It represents a single instance or entry of data within the table.
+		
+		
+    
+	
+   
+   
