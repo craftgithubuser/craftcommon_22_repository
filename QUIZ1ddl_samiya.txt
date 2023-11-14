@@ -1,0 +1,29 @@
+create schema MyDB;
+
+
+use Mydb;
+
+
+create table if not exists customers(
+
+	CUST_ID int NOT NULL UNIQUE auto_increment,
+
+	CUST_FIRSTNAME VARCHAR(20) not null,
+
+	CUST_LASTNAME VARCHAR(20),
+
+	CUST_NICKNAME VARCHAR(20),
+
+	CUST_AGE INT,
+
+	CUST_GENDER CHAR(1) NOT NULL,
+
+	CUST_COUNTRY VARCHAR(20) NOT NULL,
+
+	CUST_SALARY DECIMAL(10,2) NOT NULL
+	
+);
+
+
+
+DESC CUSTOMERS;
