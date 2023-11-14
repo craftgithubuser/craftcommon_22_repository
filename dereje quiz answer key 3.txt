@@ -1,0 +1,25 @@
+alter table customers
+modify column Cust_ID int not null auto_increment;
+alter table customers
+add column bonus int not null,
+modify Cust_Age int not null;
+alter table customers 
+drop column Cust_NakeName,
+drop column bonus;
+alter table customers
+rename customer;
+drop table customer
+drop database MYDB
+create database MYDB
+use MYDB;
+create table customers(
+Cust_ID int not null auto_increment,
+Cust_FirstName varchar(255) not null,
+Cust_LastName varchar(255) not null,
+Cust_NakeName varchar(255),
+Cust_Age int not null,
+Cust_Gender char not null,
+Cust_Country varchar(255) not null,
+Cust_Salary dec(20,2) not null,
+primary key(Cust_ID)
+);
