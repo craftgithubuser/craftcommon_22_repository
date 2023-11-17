@@ -1,0 +1,23 @@
+-- 	Dereje Quiz 1 DML 
+use mydb;
+-- Insers a data to customers table 
+insert into customers (Cust_ID,Cust_FirstName,Cust_LastName,Cust_Gender,Cust_Country)
+values
+(111,"Nick","Jons","M","USA"),
+(222,"Antony","Martial","M","France"),
+(333,"Ross","Geller","M","Uzbekistan"),
+(444,"Chandler","Bing","M","unknown "),
+(555,"Rachel","Green","F","Kazakhstan"),
+(666,"Nick","Jons","M","USA"),
+(777,"Poul","Pogba","M","France"),
+(888,"Joey","Tribbiani","M" ,"Ethiopia");
+select*from customers;
+-- Update customers table
+update customers 
+set Cust_Country = "Ethiopia"
+where Cust_ID IN (333,444,555);
+select*from customers;
+-- Delete Cust_Name Nick Jones
+delete from customers 
+where Cust_ID = 666
+select*from customers;
