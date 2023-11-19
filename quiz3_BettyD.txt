@@ -1,0 +1,80 @@
+-- Quiz 3;
+
+-- creating database;
+
+create database MyDB;
+
+use MyDB;
+
+-- creating a table;
+
+create table customers ( 
+Cust_ID int auto_increment primary key not null,
+Cust_FirstName Varchar (20) not null,
+Cust_LastName Varchar (20) not null,
+Cust_NickName varchar (20),
+Cust_Age int,
+Cust_Gender char not null,
+Cust_Country varchar (20) not null,
+Cust_Salary decimal not null ) ; 
+
+select * from customers ; 
+
+-- adding a column; 
+
+alter table customers add column bonus int not null; 
+
+use MyDB; 
+
+alter table customers add column bonus int not null; 
+
+-- modifying a column; 
+
+alter table customers modify Cust_Age int not null;
+
+alter table customers drop column Cust_NickName;
+
+rename table customers to customer; 
+
+drop table customer; 
+
+drop database MyDB; 
+
+create database MyDB; 
+
+create table customers ( 
+Cust_ID int auto_increment primary key not null,
+Cust_FirstName Varchar (20) not null,
+Cust_LastName Varchar (20) not null,
+Cust_NickName varchar (20),
+Cust_Age int,
+Cust_Gender char not null,
+Cust_Country varchar (20) not null,
+Cust_Salary decimal not null ) ; 
+
+
+use MyDB; 
+
+create table customers ( 
+Cust_ID int auto_increment primary key not null,
+Cust_FirstName Varchar (20) not null,
+Cust_LastName Varchar (20) not null,
+Cust_NickName varchar (20),
+Cust_Age int,
+Cust_Gender char not null,
+Cust_Country varchar (20) not null,
+Cust_Salary decimal not null ) ; 
+
+select * from customers; 
+
+
+
+
+
+
+
+
+
+
+
+
