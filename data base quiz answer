@@ -1,4 +1,3 @@
-feature_Asnake
  1. What is data?
 
 Data is a collection of raw facts and figures that have not yet been processed into a meaningful form. It can be anything from numbers and letters to images and sounds.
@@ -77,85 +76,5 @@ A column in a table is a vertical column of data. It represents a single attribu
 
 A row in a table is a horizontal row of data. It represents a single record in the table.
 
-
-
-=======
- 1. What is data?
-
-Data is a collection of raw facts and figures that have not yet been processed into a meaningful form. It can be anything from numbers and letters to images and sounds.
-
-2. What is information?
-
-Information is data that has been processed into a meaningful form. It is something that can be understood and used to make decisions.
-
-3. What is a database (DB)?
-
-A database is a collection of organized data that is stored electronically. It is designed to make it easy to access, manage, and update the data.
-
-4. What is a relational database management system (RDBMS)?
-
-A relational database management system (RDBMS) is a software application that allows users to create, manage, and access relational databases. Relational databases store data in tables, which are made up of rows and columns. Each row represents a single record, and each column represents a single attribute of that record.
-
-5. Define the importance of a relational database management system (RDBMS).
-
-RDBMSs are important because they provide a number of benefits, including:
-
-Data integrity
-Data security
-Data scalability
-Data performance
-6. What is the difference between a relational database (SQL) and a non-relational database (NoSQL)?
-
- Relational databases (SQL) are based on the relational model of data, which stores data in tables.
- Non-relational databases (NoSQL) do not use the relational model of data and can store data in a variety of formats, such as documents, graphs, and key-value pairs.
-
-7. List examples of relational database management systems (RDBMS).
-
-Some popular relational database management systems include:
-
-MySQL
-PostgreSQL
-Oracle Database
-Microsoft SQL Server
-IBM DB2
-8. List examples of non-relational databases (NoSQL).
-
-Some popular non-relational databases include:
-
-MongoDB
-CouchDB
-Cassandra
-Redis
-HBase
-
-9. Define and describe Structured Query Language (SQL).
-
-Structured Query Language (SQL) is a programming language that is used to access and manipulate data in relational databases. It is the standard language for querying relational databases.
-
-SQL can be used to perform a variety of operations, including:
-
-Creating and deleting databases and tables
-Inserting, updating, and deleting data in tables
-Querying data from tables
-Creating views and procedures
-
-10. List and describe each of the different subsets of SQL (DDL, DML, DCL, and TCL).
-
-SQL is divided into four subsets:
-
-DDL (Data Definition Language)
-DML (Data Manipulation Language)
-DCL (Data Control Language)
-TCL (Transaction Control Language) transactions.
-
-11. What is a table in a database (DB)?
-
-A table in a database is a collection of data that is organized into rows and columns. Each row represents a single record, and each column represents a single attribute of that record.
-
-12. What is a column and row (tuples) in a table?
-
-A column in a table is a vertical column of data. It represents a single attribute of the records in the table.
-
-A row in a table is a horizontal row of data. It represents a single record in the table.
 
 
