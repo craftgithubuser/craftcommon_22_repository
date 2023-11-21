@@ -1,0 +1,30 @@
+INSERT INTO CUSTOMERS values(111, 'Nick', 'Jones', null, 'M', 'USA', 20000000);
+
+INSERT INTO CUSTOMERS values(222, 'Antony', 'Martial', null, 'M', 'FRANCE', 10000000);
+
+INSERT INTO CUSTOMERS values(333, 'Ross', 'Geller', null, 'M', 'UZBEKISTAN', 36000000);
+
+INSERT INTO CUSTOMERS values(444, 'chandler', 'Bing', null, 'M', 'UNKNOWN', 34000000);
+
+INSERT INTO CUSTOMERS values(555, 'Rachel', 'Green', null, 'F', 'KAZAKHSTAN', 400000);
+
+INSERT INTO CUSTOMERS values(666, 'Nick', 'Jones', null, 'M', 'USA', 20000000);
+
+INSERT INTO CUSTOMERS values(777, 'Poul', 'Pogba', null, 'M', 'FRANCE', 20000000);
+
+INSERT INTO CUSTOMERS values(888, 'Joey', 'Tribbiani', null, 'M', 'ETHIOPIA', 70000000);
+
+
+SELECT * FROM CUSTOMERS;
+
+
+update CUSTOMERS
+
+set Cust_Country='ETHIOPIA'
+
+where Cust_ID in(333,444,555);
+
+
+delete from customers
+
+where Cust_FirstName='Nick' and Cust_Lastname='Jones' and Cust_ID=666;
