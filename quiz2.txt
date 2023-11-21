@@ -1,0 +1,13 @@
+Create database MyDB;
+
+use MyDB;
+CREATE TABLE students(
+Cust_ID int NOT NULL,
+Cust_FirstName varchar(50) NOT NULL,
+Cust_LastName varchar(50) NOT NULL,
+Cust_NickName varchar(50),
+Cust_Age int,
+Cust_Gender char(1) NOT NULL,
+Cust_Country varchar(50) NOT NULL,
+Cust_Salary decimal NOT NULL
+);
