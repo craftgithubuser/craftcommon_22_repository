@@ -9,6 +9,12 @@ Values
 (777, 'Poul' , 'Pogba' , NULL , 'M' , 'France' , 20000000),
 (888, 'joey' , 'Tribbiani' , NULL , 'M' , 'Ethiopia' ,70000000);
 
+update customers
+set Cust_Country = 'Ethiopia'
+where Cust_ID IN (333 , 444 , 555);
+
+DElETE from Customers
+where Cust_Id = 666;
 
 
 
