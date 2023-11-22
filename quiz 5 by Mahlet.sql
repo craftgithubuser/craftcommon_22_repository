@@ -1,0 +1,10 @@
+select * from customers;
+select * from customers WHERE Cust_country = 'Ethiopia';
+select * from customers WHERE Cust_salary > 5000000;
+select cust_FirstName , Cust_LastName , Cust_Country from customers WHERE Cust_gender = 'M';
+select Distinct Cust_country from customers;
+select Cust_FirstName , Cust_LastName , Cust_Country from customers WHERE Cust_gender = 'F' ORDER by Cust_Country DESC;
+select * from customers WHERE Cust_gender = 'F' And Cust_salary > 2000000 And Cust_Country = 'Ethiopia';
+select * from Customers WHERE Cust_Country IN ('Ethiopia', 'Uzbekistan');
+select MIN(Cust_salary) As Mnimumcust_salary From Customers;
+select MAX(Cust_salary) AS Maximumcust_salary from customers;
