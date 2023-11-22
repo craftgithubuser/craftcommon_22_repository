@@ -1,0 +1,8 @@
+1,Transaction control language
+2,rollback
+3,commit
+4,count,sum,avg,max,min
+5,select*FROMperson WHEREfirstname LIKE'a%'
+6,count
+7,for ranges
+8,%
