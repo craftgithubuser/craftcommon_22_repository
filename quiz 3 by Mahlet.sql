@@ -3,7 +3,7 @@ Add bonus int not null;
 
 
 ALTER TABLE customers
-drop column cust_nickname,
+drop column cust_nickname;
 drop column bonus;
 
 rename table customers to customer;
@@ -15,13 +15,18 @@ Drop database mydb;
 
 create database MYDB;
  create table customers (
- Cust_Id int Auto_Increment Primary key not null,
- Cust_Firstname varchar(200) not null,
- Cust_Lastname varchar(200) not null,
+ Cust_Id int Auto_Increment Primary key Not Null,
+ Cust_Firstname varchar(200) Not Null,
+ Cust_Lastname varchar(200) Not Null,
  cust_Nickname varchar(100),
- Cust_Age int not null,
- Cust_gender char(1),
- Cust_country varchar(50),
- Cust_salary decimal(12,2) not null
+ Cust_Age int ,
+ Cust_gender char(1) Not Null,
+<<<<<<< HEAD
+ Cust_country varchar(50) Not NUll,
+ Cust_salary decimal(12,2) Not null
+=======
+ Cust_country varchar(50) Not Null,
+ Cust_salary decimal(12,2) Not Null
+>>>>>>> c82c28a80fefcfdc08b7814a865773141516d68d
  
   );

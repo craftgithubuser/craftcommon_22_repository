@@ -1,0 +1,36 @@
+             -- Dereje Quiz JOIN
+             -- Creta table name Address inside MYDB database
+use mydb;
+create table Address(
+    Cust_ZIP varchar(255) not null,
+    Cust_Street varchar(255) not null,
+    Cust_City varchar(255) not null,
+    Cust_State varchar(255),
+    Cust_ID int,
+    primary key(Cust_ZIP),
+    foreign key (Cust_ID) references customers(Cust_ID)
+    );
+-- Inseret data in to address table 
+insert into Address-- (Cust_ZIP,Cust_Street,Cust_City,Cust_State,Cust_ID)
+      values 
+      (1000,'megenagna','Addis Ababa','Addis Ababa',444),
+      (2000,'4-kilo','Addis Ababa','Addis Ababa',555),
+      (3000,'41-eyesus','Addis Ababa','Addis Ababa',888),
+      (4000,'6-kilo','Addis Ababa','Addis Ababa',333),
+      (5000,'01-st','San Diego','Claifornia',null),
+      (6000,'KU-road','Los Angeles','California',null),
+      (7000,'JK-road','Miami','Florida',null),
+      (8000,'Lj-road', 'Atlanta','Georgia',null );
+  -- writing with INNER JOIN,LEFT OUTER JOIN,RIGHT OUTER JOIN AND FULL OUTER JOIN
+  SELECT*FROM Address Ad
+INNER JOIN Customers cs ON Ad.Cust_ID=cs.Cust_ID;
+SELECT*FROM Address Ad
+LEFT OUTER JOIN Customers cs ON Ad.Cust_ID=cs.Cust_ID;
+SELECT* FROM Address Ad
+RIGHT OUTER JOIN Customers cs ON Ad.Cust_ID=cs.Cust_ID;
+-- FULL OUTER JOIN 
+SELECT*FROM Address Ad
+LEFT OUTER JOIN Customers cs ON Ad.Cust_ID=cs.Cust_ID
+      UNION  
+SELECT* FROM Address Ad
+RIGHT OUTER JOIN Customers cs ON Ad.Cust_ID=cs.Cust_ID;

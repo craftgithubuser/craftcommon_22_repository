@@ -1,0 +1,10 @@
+1, primary key
+2,forgin key
+3,true
+4,database schema
+5,drop table customer
+6,create
+7,column
+8,alter
+9,data defination languge
+10,drop
