@@ -1,0 +1,74 @@
+1.       what is Data?
+
+Data  refers to a collected raw facts or figures that has no meaning without a context.
+
+2.       what is Information?
+
+Information is a result of processing or transforming data into a useful and meaningful form.
+
+3.      what is Database(DB)?
+
+A database is information that is set up for easy access, management and updating.
+ 
+4.      What is the Relation Database Management System(RDBMS)?
+
+A relational database management system (RDBMS) is a software that allows you to create, update, 
+and administer a relational database.
+
+5.      Define the importance of Relation Database Management System(RDBMS)?  
+
+Flexibility: Relational databases can be flexible in allowing users to change or store data. 
+Accuracy: Because the relational database interface is user-friendly and easy to navigate,
+Usability: Relational databases are typically straightforward, which can be especially helpful for users who want a simple data 
+storage solution. It's also possible to navigate and share data sets easily within a relational database.
+Security: You can tag some tables as confidential and limit their access because relational databases can divide the data among tables. 
+Simplicity: Relational database systems have a simple structure. This can allow you to operate it using simple SQL queries rather than complex structuring.
+Modifiability: Inserting, deleting and updating records is easy because the system holds records in separate tables based on their categories. This can help you efficiently manipulate the data to keep up with the latest requirements of the RDBMS.
+Fault tolerability: Fault tolerance is the ability of the system to continue operating even when one or more of its components fails. This can help you provide security against data losses in the circumstances such as sudden power failures.
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+
+The format for a relational database organizes data items and sets them into tables of rows and columns. It places data in these rows and columns depending on 
+how they relate to other items or data sets in the database. This format can help make relational databases easy to navigate and process commands and queries, often using SQL commands.
+
+Nonrelational databases rarely use rows and columns to store data. Instead, they can adjust their operating format according to the data they're storing. 
+For example, a nonrelational database might use a hierarchical format when it contains sets that appear in a specific order and a different format to store and 
+display data sets with no order. A nonrelational database's design also can process only specific types of queries and commands.
+
+7.  List examples of Relation Database Management System(RDBMS)?
+    
+Examples of the most popular relational database management systems include Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, and MariaDB
+
+8.       List examples of Non-Relational DB(Nosql)? 
+
+ Examples of NoSQL or non-relational databases: MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
+
+9.       Define and Describe is Structured Query Language(SQL)?
+
+Structured query language (SQL) is a programming language for storing and processing information in a relational database. 
+A relational database stores information in tabular form, with rows and columns representing different data attributes 
+and the various relationships between the data values.
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+DDL(Data Definition Language): To make/perform changes to the physical structure of any table residing inside a database, DDL is used. 
+         These commands when executed are auto-commit in nature and all the changes in the table are reflected and saved immediately.
+DML(Data Manipulation Language): Once the tables are created and the database is generated using DDL commands, manipulation inside those tables 
+         and databases is done using DML commands. The advantage of using DML commands is, that if in case any wrong changes or values are made, 
+         they can be changed and rolled back easily.
+DCL(Data Control Language): DCL commands as the name suggests manage the matters and issues related to the data controller in any database. 
+         It includes commands such as GRANT and REVOKE which mainly deal with the rights, permissions, and other controls of the database system.
+TCL(Transaction Control Language): Transaction Control Language as the name suggests manages the issues and matters related to the transactions in any database. 
+         They are used to roll back or commit the changes in the database.
+(DQL(Data Query Language): Data query language consists of only one command upon which data selection in SQL relies. The SELECT command in combination with 
+other SQL clauses is used to retrieve and fetch data from databases/tables based on certain conditions applied by the user)
+
+11.      what is table in Database(DB)?
+
+A database is a data structure that stores organized information. Most databases contain multiple tables, which may each include several different fields. 
+A database is used to store large amounts of information for quick searching. table. A collection of data related to a specific topic.
+
+12.     what is column and Row(tuples) in table?
+
+In relational databases, a tuple is one record (one row). The information in a database can be thought of as a spreadsheet, with columns (known as fields or attributes)
+representing different categories of information, and tuples (rows) representing all the information from each field associated with a single record.
