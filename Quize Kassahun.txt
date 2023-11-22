@@ -1,0 +1,44 @@
+Quiz #1    Name Kassahun Befekadu
+
+1.What is data?
+Data is a collection of facts in different formats like text, videos, images & numbers.
+
+2. What is information?
+Information is data that has been processed into a meaningful form for the user.
+
+3. What is a database (DB)? A database is a collection of data in an organized manner & which can be retrieved easily & accessible for the user in different ways.
+
+4. What is a relational database management system (RDBMS)?
+Rational database management system is one type of database management system that stores data in structured format in
+Columns & Rows & RDMS uses Structured Query Languages to access and manipulate the data in the database.
+
+
+5. Define the importance of a relational database management system (RDBMS).
+Rational database management system has different importance including business data security, integrity and well structuredness of data.
+
+6. What is the difference between a relational database (SQL) and a non-relational database (NoSQL)?
+The major difference in RDMS & Non-rational database management system is the form in which they store data, RDMS     uses tables in the form of Rows & columns whereas the NRDMS used for storing large quantity of complex data & use
+non tabular data formats like Document, Graphs & other structures.
+
+7. List examples of relational database management systems (RDBMS).
+Below are the Examples of RDMS.
+-Oracles, Microsoft SQL server, IBM DB2, MySQL...
+
+8. List examples of non-relational databases (NoSQL).
+Here are some examples of non-relational databases.
+MongoDB, Amazon DynamoDB, IBM cloudant..
+9. Define and describe Structured Query Language (SQL).
+Structured Query Language (SQL) is a programming language that is used to access and manipulate data in relational databases. It is the standard language for querying relational databases.
+SQL can be used to perform a variety of operations, including;
+Creating tables, inserting data, retrieving, updating, and deleting data.
+10. List and describe each of the different subsets of SQL (DDL, DML, DCL, and TCL). SQL is divided into four subsets:
+The different subsets of SQL are:
+DDL; Data Definition Language
+DML Data Manipulation language
+DCL Data control language
+TCL Transaction Control Language
+11. What is a table in a database (DB)?
+A table in a database is a collection of data that is organized into rows and columns. 
+
+12. What is a column and row (tuples) in a table?
+The Column runs vertically and represents specific field & Rows run on horizontal represent each record.

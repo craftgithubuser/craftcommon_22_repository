@@ -1,0 +1,24 @@
+insert into customers
+values
+(111, "Nick", "jones", "M", "USA"),
+(222, "Antony", "Marital", "M", "France"),
+(333, "Ross", "Geller", "M", "uzbekistan"),
+(444, "Chandler", "Bing", "M", "Unknown"),
+(555, "Rachel", "Green", "F", "kazakhistan"),
+(666, "Nick", "Jones", "M", "USA"),
+(777, "Poul", "Pogba", "M", "France"),
+(888, "Joey", "Tribbiani", "M", "Ethiopia");
+
+alter table customers
+add column cust_age int;
+
+update customers
+set cust_country= "Ethiopia"
+where cust_id  = "555";
+
+
+SET SQL_SAFE_UPDATES = 0;
+
+
+DELETE from customers
+WHERE cust_id = "666";

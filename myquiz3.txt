@@ -1,0 +1,20 @@
+CREATE TABLE students(
+Cust_ID int auto_increment primary key,
+Cust_FirstName varchar(50) NOT NULL,
+Cust_LastName varchar(50) NOT NULL,
+Cust_NickName varchar(50),
+Cust_Age int,
+Cust_Gender char(1) NOT NULL,
+Cust_Country varchar(50) NOT NULL,
+Cust_Salary decimal NOT NULL
+);
+alter table students
+add column bonus int not null;
+
+alter table students
+modify column Cust_Age int NOT NULL;
+
+alter table students
+drop column cust_nickname,
+drop column bonus;
+
