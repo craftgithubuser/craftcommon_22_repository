@@ -1,0 +1,49 @@
+  Dereje.quiz.aggregate funs.
+
+1.SELECT*FROM table_name;
+
+2.SELECT*FROM table_name
+   WHERE Citizenship='Ethiopia';
+3.SELECT*FROM table_name
+    WHERE salary>5,000,000;
+4.SELECT FirstName,LastName,Country
+       FROM Customers 
+       WHERE Gender='Male';
+5.SELECT DESTINCT Country 
+      FROM table_name;
+6.SELECT FirstName,LastName,Country
+        FROM table_name 
+         WHERE Gender='Female' 
+         ORDER BY Country DESC;
+7.SELECT*FROM table_name
+          WHERE 
+      Gender='Female' 
+           AND 
+      Salary>2,000,000 
+          AND 
+      Citizenship='Ethiopia';
+8.SELECT*FROM table_name
+      WHERE Citizenship='Ethiopia'    
+            OR
+          Citizenship='Uzbekistan';
+9.SELECT MIN(Salary) FROM table_name;
+
+10.SELECT MAX(Fees) FROM table_name;
+
+11.SELECT COUNT(Customer_id) FROM table_name;
+
+12.SELECT AVG(Salary) FROM table_name;
+
+13.SELECT SUM(Fees) FROM table_name;
+
+14.SELECT* FROM table_name
+   WHERE Salary IN (2,000,000,8,000,000);
+15.SELECT* FROM table_name
+   WHERE FirstName LIKE 'S%';
+16.SELECT* FROM table_name
+   WHERE FirstName LIKE '_e%' AND LastName LIKE '%e';
+17.SELECT * FROM table_name
+   WHERE LastName LIKE 'P%a';
+18. SELECT* FROM table_name 
+    WHERE Citizenship= 'ethiopa' OR Citizenship='USA' OR 
+         Citizenship= 'France';

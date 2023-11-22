@@ -1,0 +1,15 @@
+                          Dereje_Quiz Db_2 answer key2
+
+                 creat database MYDB;   
+                     use MYDB;
+                        create table customers(
+                        Cust_ID int not null,
+                        Cust_FirstName varchar(255) not null,
+                        Cust_LastName varchar(255) not null,
+                        Cust_NakeName varchar(255),
+                        Cust_Age int,
+                        Cust_Gender char not null,
+                        Cust_Country varchar(255) not null,
+                        Cust_Salary dec(20,2) not null,
+                      primary key(Cust_ID)
+                       );

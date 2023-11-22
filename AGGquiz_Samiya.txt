@@ -1,0 +1,46 @@
+-- Q1
+
+SELECT * FROM CUSTOMERS;
+
+-- Q2
+
+SELECT * FROM CUSTOMERS
+where Cust_Country='ETHIOPIA';
+
+-- Q3
+
+SELECT * FROM CUSTOMERS
+WHERE Cust_Salary >=5000000;
+
+-- Q4
+
+SELECT Cust_FirstName, Cust_LastName, Cust_Country FROM CUSTOMERS
+where Cust_Gender= 'M';
+
+-- Q5 
+
+SELECT DISTINCT Cust_Country FROM customers;
+
+-- Q6
+
+SELECT Cust_FirstName, Cust_LastName, Cust_Country FROM CUSTOMERS
+WHERE Cust_Gender= 'F'
+ORDER BY CUST_Country DESC;
+
+-- Q7
+
+SELECT * FROM CUSTOMERS
+WHERE Cust_Gender= 'F' and Cust_Salary > 2000000 and Cust_Country= 'Ethiopia';
+
+-- Q8
+
+Select * from customers
+where Cust_country= 'Ethiopia' or Cust_Country= 'Uzbekistan';
+
+-- Q9
+
+SELECT MIN(Cust_Salary) as Minimum_Salary from customers;
+
+-- Q10
+
+SELECT MAX(Cust_Salary) as MaximumFees from customers;
