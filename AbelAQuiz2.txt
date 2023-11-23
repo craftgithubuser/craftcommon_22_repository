@@ -1,0 +1,17 @@
+
+AbelA,
+ mydb;
+
+CREATE TABLE customers(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    firstname VARCHAR(200) NOT NULL,
+    lastname VARCHAR(200) NOT NULL,
+    nickname VARCHAR(200) NOT NULL,
+    age INT(80),
+    gender CHAR(2),
+    country VARCHAR(200) NOT NULL,
+    salary DECIMAL(50,2) NOT NULL
+);
+
+
+DROP TABLE customers;
