@@ -1,0 +1,8 @@
+1,delete from customer wher
+2,select firstname from person
+3,select wher empid=1009 and lastname='Geller'
+4,insert
+5,Desc,Asc
+6,delete
+7,select
+8,DML
