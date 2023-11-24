@@ -8,3 +8,11 @@ select * from customers WHERE Cust_gender = 'F' And Cust_salary > 2000000 And Cu
 select * from Customers WHERE Cust_Country IN ('Ethiopia', 'Uzbekistan');
 select MIN(Cust_salary) As Mnimumcust_salary From Customers;
 select MAX(Cust_salary) AS Maximumcust_salary from customers;
+select count(*) from customers;
+select avg(cust_salary) from customers;
+select sum(cust_salary) from customers;
+select * from customers where cust_salary between 2000000 and 8000000;
+select * from customers where cust_firstname like 's%';
+select * from customers where cust_firstname like '%e' and cust_lastname like '%e';
+select * from customers where cust_lastname like 'p%a';
+select * from customers where cust_country in ('ethiopia' , 'USA' , 'france');
