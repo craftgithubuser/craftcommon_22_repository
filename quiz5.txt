@@ -1,0 +1,131 @@
+create database customers;
+
+create table customers(
+cust_id int,
+cust_firstname varchar(50),
+cust_lastname varchar(50),
+cust_gender char,
+cust_country varchar(50)
+);
+
+insert into customers
+values
+(111, "Nick", "jones", m, "USA"),
+(222, "Antony", "Marital", m, "France"),
+(333, "Ross", "Geller", m, "uzbekistan"),
+(444, "Chandler", "Bing", m, "Unknown"),
+(555, "Rachel", "Green", f, "kazakhistan"),
+(666, "Nick", "Jones", m, "USA"),
+(777, "Poul", "Pogba", m, "France"),
+(888, "Joey", "Tribbiani", m, "Ethiopia");
+
+alter table customers 
+rename column age to cust_age;
+
+
+
+create table customers(
+cust_id int,
+cust_firstname varchar(50),
+cust_lastname varchar(50),
+cust_gender char,
+cust_country varchar(50)
+);
+alter table customers
+drop column cust_age;
+
+
+
+insert into customers
+values
+(111, "Nick", "jones", "M", "USA"),
+(222, "Antony", "Marital", "M", "France"),
+(333, "Ross", "Geller", "M", "uzbekistan"),
+(444, "Chandler", "Bing", "M", "Unknown"),
+(555, "Rachel", "Green", "F", "kazakhistan"),
+(666, "Nick", "Jones", "M", "USA"),
+(777, "Poul", "Pogba", "M", "France"),
+(888, "Joey", "Tribbiani", "M", "Ethiopia");
+
+alter table customers
+add column cust_age int;
+
+update customers
+set cust_country= "Ethiopia"
+where cust_id  = "555";
+
+
+SET SQL_SAFE_UPDATES = 0;
+
+
+DELETE from customers
+WHERE cust_id = "666";
+
+
+insert into customers
+values
+(111, "Nick", "jones", "M", "USA"); 
+
+commit;
+
+select *
+from customers
+where cust_country= "ethiopia";
+
+
+select *
+from customers
+where cust_salary > "5000000";
+
+select cust_firstname, cust_lastname
+from customers
+where cust_gender = "M";
+
+select distinct cust_country
+from customers;
+
+select cust_firstname, cust_lastname
+from customers
+where cust_gender = "F";
+
+select *
+from customers
+where cust_gender = "F" AND salary > "2000000" AND cust_country = "ethiopia";
+
+
+select *
+from customers
+where cust_country = "ethiopia" or cust_country = "uzbekistan";
+
+select COUNT(*) 
+from customers;
+
+select avg
+from customers;
+
+select *
+from customers
+where salary between 30000 and 70000;
+
+select *
+from customers
+where cust_firstname like 's%';
+
+select *
+from customers
+where cust_country in("ethiopia", "USA" and "france");
+
+
+
+SELECT *
+FROM customers
+WHERE cust_lastname LIKE 'p%a';
+
+SELECT *
+FROM customers
+WHERE cust_FirstName LIKE '_e%' AND cust_LastName LIKE '%e';
+
+
+
+
+
